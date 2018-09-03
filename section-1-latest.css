@@ -1,0 +1,60 @@
+
+#latest ul{
+  padding: 0 49px;
+} 
+#latest ul>li {
+  float: left;
+  width: 403px;
+  height: 330px;
+  margin: 0 7px;
+}
+#latest a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-size: cover;
+}
+#latest .manu {
+  background: url(img/latest-manu.jpg) center center no-repeat;
+}
+#latest .demar {
+  background: url(img/latest-demar.jpg) center center no-repeat;
+}
+#latest .schedule {
+  background: url(img/latest-schedule.jpg) center center no-repeat;
+}
+#latest h3 {
+  color: #000;
+  width: 90.07%;
+  height: 25.45%;
+  position: absolute;
+  background: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  padding: 20px 0;
+  margin: 0 20px;
+  bottom: 0;
+}
+#latest h3:hover {
+  color: #ccc;
+}
+#latest a:hover {
+  box-shadow: 0px 2px 10px 5px #ccc;
+}
+
+#latest a,h3 {
+  transition-duration: .4s;
+}
+
+
+
+@media (max-width: 990px) {
+  #latest ul>li {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+}

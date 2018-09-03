@@ -1,0 +1,37 @@
+#players {
+  background: rgb(240, 240, 240);
+}
+#players img {
+  border-radius: 50%;
+  border: 6px solid #ccc;
+  width: 250px;
+  height: auto;
+}
+#players>ul {
+  max-width: 100%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+#players>ul>li {
+  margin-bottom: 30px;
+}
+
+.social-buttons a:hover {
+  background-color: rgb(132, 190, 245);
+}
+
+.social-buttons a {
+  transition-duration: .2s;
+}
+
+#players .explanation {
+  display: inline-block;
+  max-width: 750px;
+  color: rgb(119,119,119);
+}
+@media (min-width: 768px) {
+  #players>ul>li {
+    width: 33.33%;
+    float: left;
+  }
+}

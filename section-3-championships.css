@@ -1,0 +1,63 @@
+#championships dd {
+  margin: 0;
+  font-weight: 900;
+}
+#championships img {
+  height: 156px;
+  width: 156px;
+  border-radius: 50%;
+  border: 6px solid #ccc;
+}
+#championships li::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+#championships ul>li:nth-child(odd) img {
+  float: right;
+  margin-right: calc(50% - 78px);
+}
+#championships ul>li:nth-child(even) img {
+  float: left;
+  margin-left: calc(50% - 78px);
+}
+#championships ul>li:nth-child(odd) dl {
+  text-align: right;
+  margin-right: calc(50% + 98px);
+  line-height: calc(156px/3);
+}
+#championships ul>li:nth-child(even) dl {
+  text-align: left;
+  margin-left: calc(50% + 98px);
+  line-height: calc(156px/3);
+}  
+#championships li {
+  margin-bottom: 100px;
+  position: relative;
+}
+#championships ul {
+  position: relative;
+}
+#championships ul::before {
+  content: '';
+  height: 100%;
+  width: 4px;
+  background-color: #ccc;
+  position: absolute;
+}
+#championships .end {
+  display: inline-block;
+  height: 156px;
+  width: 156px;
+  border-radius: 50%;
+  border: 6px solid #ccc;
+  background-color: #4c4c4c;
+} 
+#championships .end p{
+  font-weight: 900;
+  line-height: 40px;
+  margin-top: 30px;
+  color: #fff;
+}
+
+

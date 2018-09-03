@@ -1,0 +1,46 @@
+#connect {
+  background-image: url(img/map-image.png);
+  background-color: #222;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#connect h1 {
+  color: #fff;
+}
+#connect p {
+  color: rgb(170, 170, 170);
+}
+
+#connect .form-content {
+  padding:0 15px;
+}
+#connect form {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+@media (min-width: 992px) {
+  #connect .form-content {
+    float: left;
+    width: 50%;
+  }
+}
+@media (min-width: 1190px) {
+  #connect form {
+    width: 1200px;
+  }
+}
+#connect .form-control {
+  width: 100%;
+  border: 1px solid #ccc;  
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+#connect textarea {
+  height: 221px;
+}
+#connect .form-control::placeholder {
+  font-weight: 900;
+  color: #bbb;
+  font-size: 14px;
+}
